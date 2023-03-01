@@ -7,8 +7,9 @@ body {
   border: 3px outset rgb(125, 124, 126);
   text-align: left;
   font-size: 15px;
-  width: 465px;
-  height: 180px;
+  -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
   padding: 5px;
   
   }
@@ -79,7 +80,7 @@ body {
   }
   
   
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
