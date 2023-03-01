@@ -77,10 +77,13 @@ body {
     padding: 40px;
     text-align: center;
     color: white;
+      -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
   }
   
   
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
