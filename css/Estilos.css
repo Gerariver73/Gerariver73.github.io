@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .myDiv {
+  border: 3px outset rgb(125, 124, 126);
+  text-align: left;
+  font-size: 15px;
+  width: 465px;
+  height: 180px;
+  padding: 5px;
+  
+  }
+  .myDiv2 {
+    border: 2px outset rgb(125, 124, 126);
+    text-align: left;
+    font-size: 15px;
+    width: 185px;
+    height: 80px;
+    
+    }
+
+
+  
+  /* Estilo del header */
+  header {
+    background-color: #666;
+    background-image: url(../img/bannertop.jpg);
+    padding: 27px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* Contenedor flexboxes */
+  section  {
+    display: -webkit-flex;
+    display: flex;
+  
+ 
+  }
+
+
+  
+  /* estilo menu nav */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #a56bf7;
+    padding: 15px;
+    
+  }
+  
+  /* Estilo dentro menu */
+  nav ul {
+    list-style-type:square;
+    padding: 0;
+  }
+  
+  /* Estilo de contenido */
+  article  {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 15px;
+   
+  }
+  /* Estilo footer */
+  footer {
+    background-color: #777;
+    background-image:url(../img/bannerfooter.jpg);
+    padding: 40px;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  @media (max-width: 800px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+ 
+
